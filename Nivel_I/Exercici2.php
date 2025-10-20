@@ -27,6 +27,9 @@ class constMagicas{
         echo "El nombre de la clase es: " . __CLASS__ . "\n";
     }
 }
+$const = new constMagicas();
+$const -> claseMagica();
+
 
 echo "\n";
 
@@ -35,6 +38,9 @@ class metodoMagico{
         echo "El nombre del método es: " . __METHOD__ . "\n";
     }
 }
+$metodo = new metodoMagico();
+$metodo -> metodo();
+
 
 
 
